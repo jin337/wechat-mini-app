@@ -1,0 +1,4 @@
+<!--pages/Repositories/index.wxml-->
+<view>这里是项目目录页</view>
+
+<tab-bar selected="1"></tab-bar>

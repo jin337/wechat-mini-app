@@ -1,0 +1,4 @@
+<!--pages/User/index.wxml-->
+<text>这里是个人信息页</text>
+
+<tab-bar selected="2"></tab-bar>

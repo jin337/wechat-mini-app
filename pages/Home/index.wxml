@@ -1,0 +1,4 @@
+<!--pages/Home/index.wxml-->
+<view>这里是首页</view>
+
+<tab-bar selected="0"></tab-bar>

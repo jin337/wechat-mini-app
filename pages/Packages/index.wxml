@@ -1,0 +1,4 @@
+<!--pages/Packages/index.wxml-->
+<view>这里是代码详情页</view>
+
+<tab-bar selected="1"></tab-bar>

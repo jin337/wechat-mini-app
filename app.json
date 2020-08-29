@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/Home/index",
+    "pages/User/index",
+    "pages/Login/index",
+    "pages/Packages/index",
+    "pages/Repositories/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "GitHub",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,15 @@
+<!--pages/Login/index.wxml-->
+<view class="logo-title">Sign in to GitHub</view>
+<form class="form-wrap">
+  <view class="form-item">
+    <view class="title">Username or email address</view>
+    <input />
+  </view>
+  <view class="form-item">
+    <view class="title">Password</view>
+    <input password />
+  </view>
+  <view class="form-item">
+    <button open-type="getUserInfo" form-type hover-class="none">Sign in</button>
+  </view>
+</form>

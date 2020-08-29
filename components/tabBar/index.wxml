@@ -1,0 +1,18 @@
+<!--components/tabBar/index.wxml-->
+<view class="tab-bar"
+  style="padding-bottom:{{marBotton+'rpx'}}">
+  <navigator class="bar-item {{ item.active }}"
+    wx:for="{{ barList }}"
+    wx:key="index"
+    url="{{item.path}}"
+    open-type="reLaunch"
+    hover-class="none">
+    <image class="icon"
+      src="{{item.selectIcon}}"
+      wx:if="{{item.active}}"></image>
+    <image class="icon"
+      src="{{item.icon}}"
+      wx:else></image>
+    <view class="title">{{ item.title }}</view>
+  </navigator>
+</view>
