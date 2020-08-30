@@ -1,0 +1,8 @@
+<!--components/repItem/index.wxml-->
+<view class="item">
+  <navigator url="/pages/Packages/index?name={{item.name}}" hover-class="none">
+    <view class="name">{{item.name}}</view>
+    <view class="doc">{{item.description}}</view>
+    <view class="type"><text class="icon" wx:if="{{item.language}}"></text>{{item.language}}</view>
+  </navigator>
+</view>

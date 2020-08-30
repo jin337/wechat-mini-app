@@ -28,13 +28,7 @@ Component({
         path: "/pages/Repositories/index",
         selectIcon: 'https://github-1253149949.cos.ap-shanghai.myqcloud.com/wechat_icon/display-code.png',
         icon: 'https://github-1253149949.cos.ap-shanghai.myqcloud.com/wechat_icon/display-code%202.png',
-      },
-      {
-        title: "User",
-        path: "/pages/User/index",
-        selectIcon: 'https://github-1253149949.cos.ap-shanghai.myqcloud.com/wechat_icon/account.png',
-        icon: 'https://github-1253149949.cos.ap-shanghai.myqcloud.com/wechat_icon/account%202.png',
-      },
+      }
     ]
   },
 

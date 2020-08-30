@@ -1,1 +1,1 @@
-/* pages/Home/index.wxss */
+.avatar{width:100%;height:auto}.user{position:relative;z-index:1;margin:0 60rpx;margin-top:-80rpx;padding:20rpx 0;text-align:center;background-color:rgba(0,0,0,0.2);box-shadow:0 4rpx 10rpx rgba(0,0,0,0.075)}.user .name{font-size:30rpx;font-weight:bold;margin-bottom:30rpx;color:#fff}.user .txt{font-size:24rpx;padding:0 20rpx;color:#17233d}

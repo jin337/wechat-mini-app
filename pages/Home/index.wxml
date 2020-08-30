@@ -1,4 +1,16 @@
 <!--pages/Home/index.wxml-->
-<view>这里是首页</view>
-
 <tab-bar selected="0"></tab-bar>
+
+<image class="avatar" src="{{ User.avatar_url }}" mode="widthFix"></image>
+<view class="user">
+  <view class="name">{{User.login}}</view>
+  <view class="txt" wx:v-if="{{User.location}}">{{User.location}}</view>
+  <view class="txt" wx:v-if="{{User.bio}}">{{User.bio}}</view>
+</view>
+
+<view class="item-list">
+  <rep-item wx:for="{{itemList}}" wx:key="index" item="{{item}}"></rep-item>
+  <view class="more">
+    <navigator url="/pages/Repositories/index" hover-class="none">more……</navigator>
+  </view>
+</view>

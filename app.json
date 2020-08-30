@@ -1,10 +1,9 @@
 {
   "pages": [
     "pages/Home/index",
-    "pages/User/index",
     "pages/Login/index",
-    "pages/Packages/index",
-    "pages/Repositories/index"
+    "pages/Repositories/index",
+    "pages/Packages/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

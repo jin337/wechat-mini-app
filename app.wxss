@@ -1,7 +1,10 @@
 /**app.wxss**/
 page {
+  font-size: 0;
   position: relative;
   min-height: 100vh;
+  padding-bottom: 124rpx;
+  background-color: #e9ecef;
 }
 button {
   line-height: 1;
@@ -11,8 +14,7 @@ button {
   border-color: rgba(27, 31, 35, 0.15);
   border-radius: 0;
   background-color: #2ea44f;
-  box-shadow: 0 1rpx 0 rgba(27, 31, 35, 0.1),
-  inset 0 1rpx 0 hsla(0, 0%, 100%, 0.03);
+  box-shadow: 0 4rpx 10rpx rgba(0,0,0,0.075);
 }
 button::after {
   border: none;
@@ -21,4 +23,15 @@ input {
   list-style: none;
   border: none;
   outline: none;
+}
+
+.item-list {
+  margin: 20rpx auto;
+  padding: 0 30rpx;
+}
+.item-list .more {
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  color: #586069;
 }

@@ -1,4 +1,11 @@
 <!--pages/Repositories/index.wxml-->
-<view>这里是项目目录页</view>
-
 <tab-bar selected="1"></tab-bar>
+
+<view class="search-box">
+  <input class="input" placeholder="search……" />
+  <view class="btn">搜索</view>
+</view>
+
+<view class="item-list">
+  <rep-item wx:for="{{itemList}}" wx:key="index" item="{{item}}"></rep-item>
+</view>
