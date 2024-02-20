@@ -3,7 +3,7 @@
 ### 获取个人github信息
 
 ```
-// 官方
+// 官方api
 https://api.github.com/
 
 // 用户名：solomonxie
