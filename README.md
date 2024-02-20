@@ -1,6 +1,8 @@
 ## GIthub的API访问链接是区分大小写的
 
-```json
+### 获取个人github信息
+
+```
 // 官方
 https://api.github.com/
 
